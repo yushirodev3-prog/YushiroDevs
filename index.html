@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YushiroDevs - Web development and application development portfolio.">
+    <title>YushiroDevs | Web & App Developer</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <span class="brand-mark">&lt;/&gt;</span> Yushiro<span>Devs</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary ms-lg-3 nav-cta">Let's Work Together</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="hero-section">
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+
+        <div class="container position-relative">
+            <div class="row align-items-center min-vh-100 py-5">
+                <div class="col-lg-7">
+                    <div class="eyebrow mb-3">
+                        <span class="status-dot"></span>
+                        Available for selected projects
+                    </div>
+
+                    <h1 class="display-2 fw-bold lh-1 mb-4">
+                        I build <span class="gradient-text">websites</span>
+                        and useful applications.
+                    </h1>
+
+                    <p class="hero-description mb-4">
+                        I'm Yushiro, the developer behind YushiroDevs. I create responsive web systems, dashboards, and applications with clean interfaces, practical functionality, and a focus on security.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4">
+                            View My Projects <i class="bi bi-arrow-up-right ms-1"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-4">
+                            Start a Project
+                        </a>
+                    </div>
+
+                    <div class="hero-tech mt-5">
+                        <span>Building with</span>
+                        <div class="tech-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Java</span>
+                            <span>Dart</span>
+                            <span>Python</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mt-5 mt-lg-0">
+                    <div class="code-card">
+                        <div class="code-card-top">
+                            <div class="window-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <small>yushirodevs.js</small>
+                        </div>
+                        <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Yushin"</span>,
+  brand: <span class="code-green">"YushiroDevs"</span>,
+  focus: <span class="code-green">"Web & Apps"</span>,
+  stack: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"PHP"</span>,
+    <span class="code-green">"Java"</span>,
+    <span class="code-green">"Dart"</span>,
+    <span class="code-green">"Python"</span>,
+    <span class="code-green">"MySQL"</span>
+  ],
+  goal: <span class="code-green">"Build useful things."</span>
+};
+
+<span class="code-blue">hire</span>(developer);</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-label">ABOUT YUSHIRODEVS</div>
+                    <h2 class="section-title">Turning ideas into <span class="gradient-text">working products.</span></h2>
+                    <p class="section-text">
+                        YushiroDevs is my personal development portfolio where I showcase projects, experiments, and applications I've built while growing as an Developer with a focus on web development and cybersecurity.
+                    </p>
+                    <p class="section-text">
+                        I enjoy building systems that solve real problems, from inventory management
+                        and dashboards to interactive websites and mobile applications.
+                    </p>
+
+                    <div class="about-points mt-4">
+                        <div class="about-point">
+                            <i class="bi bi-check2-circle"></i>
+                            <div><strong>Responsive by design</strong><span>Works across desktop, tablet, and mobile.</span></div>
+                        </div>
+                        <div class="about-point">
+                            <i class="bi bi-shield-check"></i>
+                            <div><strong>Security-minded</strong><span>Developing with secure practices in mind.</span></div>
+                        </div>
+                        <div class="about-point">
+                            <i class="bi bi-code-slash"></i>
+                            <div><strong>Full-stack capable</strong><span>Frontend, backend, databases, and application development.</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-panel">
+                        <div class="mini-card">
+                            <div class="mini-icon"><i class="bi bi-window-stack"></i></div>
+                            <h5>Web Development</h5>
+                            <p>Landing pages, business websites, dashboards, and web-based systems.</p>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-icon"><i class="bi bi-phone"></i></div>
+                            <h5>App Development</h5>
+                            <p>Application concepts and functional projects using Java, Dart, and other tools.</p>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-icon"><i class="bi bi-database"></i></div>
+                            <h5>Database Systems</h5>
+                            <p>MySQL-backed CRUD systems, inventory data, and structured application data.</p>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-icon"><i class="bi bi-lock"></i></div>
+                            <h5>Cybersecurity Focus</h5>
+                            <p>Learning secure development and cybersecurity alongside web development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-padding projects-section">
+        <div class="container">
+            <div class="text-center mx-auto section-heading">
+                <div class="section-label">SELECTED WORK</div>
+                <h2 class="section-title">Projects that show what I can <span class="gradient-text">build.</span></h2>
+                <p class="section-text">
+                    A showcase of my completed projects, featuring real screenshots and demo videos that highlight my work in web development, application development, UI design, and programming.
+                </p>
+            </div>
+
+            <div class="row g-4 mt-2">
+                <!-- Project 1 -->
+                <div class="col-lg-6">
+                    <article class="project-card h-100">
+                        <div id="projectCarousel1" class="carousel slide project-media" data-bs-ride="false">
+<div class="carousel-indicators">
+    <button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+</div>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <button class="media-open" type="button" data-media-src="assets/images/weather.png" data-media-title="Weather - Menu">
+            <img src="assets/images/weather.png" class="project-image" alt="Weather screenshot">
+            <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+        </button>
+    </div>
+    <div class="carousel-item">
+        <div class="video-wrapper" data-media-title="Weather - Demo">
+            <video class="project-video" controls preload="metadata" poster="assets/images/weather.png">
+                <source src="assets/images/weather.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="video-wrapper" data-media-title="Employee System - Demo">
+            <video class="project-video" controls preload="metadata" poster="assets/images/employee-system.mp4">
+                <source src="assets/images/employee-system.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="video-wrapper" data-media-title="Simple Login - Demo">
+            <video class="project-video" controls preload="metadata" poster="assets/images/simple-login.mp4">
+                <source src="assets/images/simple-login.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="video-wrapper" data-media-title="Feedback System - Demo">
+            <video class="project-video" controls preload="metadata" poster="assets/images/feedback system_PHP.mp4">
+                <source src="assets/images/feedback system_PHP.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="video-wrapper" data-media-title="Typing Test - Demo">
+            <video class="project-video" controls preload="metadata" poster="assets/images/typingtest.mp4">
+                <source src="assets/images/typingtest.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="video-wrapper" data-media-title="Landing Page - Demo">
+            <video class="project-video" controls preload="metadata" poster="assets/images/lanidngpage.mp4">
+                <source src="assets/images/lanidngpage.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel1" data-bs-slide="prev" aria-label="Previous"><span class="carousel-control-prev-icon"></span></button><button class="carousel-control-next" type="button" data-bs-target="#projectCarousel1" data-bs-slide="next" aria-label="Next"><span class="carousel-control-next-icon"></span></button>
+</div><div class="project-content">
+                            <div class="project-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
+                            <h3>Web-Based Systems</h3>
+                            <p>A collection of web-based systems and applications showcasing responsive design, user interaction, JavaScript functionality, and practical problem-solving through projects such as employee management, feedback, authentication, typing tests, weather, and landing pages.</p>
+                            <div class="project-footer">
+                                <span><i class="bi bi-database"></i> Web System</span>
+                                <a href="#contact">Discuss a similar project <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-6">
+                    <article class="project-card h-100">
+                        <div id="projectCarousel2" class="carousel slide project-media" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#projectCarousel2" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#projectCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#projectCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#projectCarousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <button class="media-open" type="button" data-media-src="assets/images/login.png" data-media-title="PrintFlow - Login">
+                    <img src="assets/images/login.png" class="project-image" alt="PrintFlow Login">
+                    <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+                </button>
+            </div>
+            <div class="carousel-item">
+                <button class="media-open" type="button" data-media-src="assets/images/manager-dashboard.png" data-media-title="PrintFlow - Manager Dashboard">
+                    <img src="assets/images/manager-dashboard.png" class="project-image" alt="PrintFlow Manager Dashboard">
+                    <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+                </button>
+            </div>
+            <div class="carousel-item">
+                <button class="media-open" type="button" data-media-src="assets/images/pos-dashboard.png" data-media-title="PrintFlow - POS Dashboard">
+                    <img src="assets/images/pos-dashboard.png" class="project-image" alt="PrintFlow POS Dashboard">
+                    <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+                </button>
+            </div>
+            <div class="carousel-item">
+                <button class="media-open" type="button" data-media-src="assets/images/pos-overview.png" data-media-title="PrintFlow - POS Overview">
+                    <img src="assets/images/pos-overview.png" class="project-image" alt="PrintFlow POS Overview">
+                    <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+                </button>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel2" data-bs-slide="prev" aria-label="Previous"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel2" data-bs-slide="next" aria-label="Next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+                            <div class="project-content">
+                            <div class="project-tags"><span>Java</span><span>MySQL</span><span>CRUD</span></div>
+                            <h3>PrintFlow Inventory System | Client Project</h3>
+                            <p>An inventory and management system concept for a printing service business, including stock tracking, dashboards, and transaction data.</p>
+                            <div class="project-footer">
+                                <span><i class="bi bi-boxes"></i> Desktop / GUI Concept</span>
+                                <a href="#contact">Discuss a similar project <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-6">
+                    <article class="project-card h-100">
+                        <div id="projectCarousel3" class="carousel slide project-media" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <button class="media-open" type="button" data-media-src="assets/images/flappybee-menu.png" data-media-title="Flappy Bee - Menu">
+                    <img src="assets/images/flappybee-menu.png" class="project-image" alt="Flappy Bee Menu">
+                    <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+                </button>
+            </div>
+            <div class="carousel-item">
+                <button class="media-open" type="button" data-media-src="assets/images/flappybee-game.png" data-media-title="Flappy Bee - Game">
+                    <img src="assets/images/flappybee-game.png" class="project-image" alt="Flappy Bee Game">
+                    <span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span>
+                </button>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Flappy Bee - Demo">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/Flappy Bee Video.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Memory Match Game - Demo">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/Memory match Game - demo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Tiktac Toe - Demo">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/Tiktac Toe - Demo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Rock, Paper, Scissor Game - Demo">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/Rock, Paper, Scissor Game - Demo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Snake Game - Demo">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/Snake Game - Demo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Rock, Paper, Scissor Game - Demo">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/Rock, Paper, Scissor Game - Demo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-wrapper" data-media-title="Math Lakbay Hero - Demo | Client">
+                    <video class="project-video" controls preload="metadata" poster="assets/images/flappybee-menu.png">
+                        <source src="assets/images/MathLakbayHero.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel3" data-bs-slide="prev" aria-label="Previous"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel3" data-bs-slide="next" aria-label="Next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+                            <div class="project-content">
+                            <div class="project-tags"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Java</span><span>Python</span><span>GUI</span></div>
+                            <h3>Interactive Game Projects</h3>
+                            <p>A collection of interactive games and GUI applications built with Java, JavaScript, and Python. Each project showcases my experience with programming logic, user interaction, UI design, event handling, and building engaging desktop and browser based applications.</p>
+                            <div class="project-footer">
+                                <span><i class="bi bi-lightning"></i> Interactive</span>
+                                <a href="#contact">Discuss a similar project <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-lg-6">
+                    <article class="project-card h-100">
+                        <div id="projectCarousel4" class="carousel slide project-media" data-bs-ride="false">
+<div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="0" class="active" aria-label="Car Rental landing page"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="1" aria-label="Car Rental login page"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="2" aria-label="Car Rental dashboard"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="3" aria-label="Car Rental details"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="4" aria-label="Tindago app"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="5" aria-label="Tindago demo"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="6" aria-label="Todo app demo"></button></div>
+<div class="carousel-inner">
+<div class="carousel-item active"><button class="media-open" type="button" data-media-src="assets/images/vmore app.jpg" data-media-title="Car Rental Landing Page | Client"><img src="assets/images/vmore app.jpg" class="project-image" alt="Car Rental landing page"><span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span></button></div>
+<div class="carousel-item"><button class="media-open" type="button" data-media-src="assets/images/login page.jpg" data-media-title="Car Rental Login Page | Client"><img src="assets/images/login page.jpg" class="project-image" alt="Car Rental login page"><span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span></button></div>
+<div class="carousel-item"><button class="media-open" type="button" data-media-src="assets/images/vmore dashboard.jpg" data-media-title="Car Rental Dashboard | Client"><img src="assets/images/vmore dashboard.jpg" class="project-image" alt="Car Rental dashboard"><span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span></button></div>
+<div class="carousel-item"><button class="media-open" type="button" data-media-src="assets/images/vmore details.jpg" data-media-title="Car Rental Details | Client"><img src="assets/images/vmore details.jpg" class="project-image" alt="Car Rental details"><span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span></button></div>
+<div class="carousel-item"><button class="media-open" type="button" data-media-src="assets/images/tindago app.jpg" data-media-title="Tindago App - Login | Client"><img src="assets/images/tindago app.jpg" class="project-image" alt="Tindago App screenshot"><span class="media-overlay"><i class="bi bi-arrows-fullscreen"></i> View image</span></button></div>
+<div class="carousel-item"><div class="video-wrapper" data-media-title="Tindago - Demo | Client"><video class="project-video" controls preload="metadata" poster="assets/images/tindago app.jpg"><source src="assets/images/tindago demo.mp4" type="video/mp4">Your browser does not support HTML5 video.</video></div></div>
+<div class="carousel-item"><div class="video-wrapper" data-media-title="Todo App - Demo"><video class="project-video" controls preload="metadata" poster="assets/images/tindago app.jpg"><source src="assets/images/todoapp.mp4" type="video/mp4">Your browser does not support HTML5 video.</video></div></div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel4" data-bs-slide="prev" aria-label="Previous"><span class="carousel-control-prev-icon"></span></button><button class="carousel-control-next" type="button" data-bs-target="#projectCarousel4" data-bs-slide="next" aria-label="Next"><span class="carousel-control-next-icon"></span></button>
+</div><div class="project-content">
+                            <div class="project-tags"><span>Dart</span><span>Java</span><span>Apps</span></div>
+                            <h3>Application Development</h3>
+                            <p>Application projects and prototypes focused on usability, functionality, and learning modern development workflows.</p>
+                            <div class="project-footer">
+                                <span><i class="bi bi-phone"></i> App Development</span>
+                                <a href="#contact">Discuss a similar project <i class="bi bi-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="section-label">TECH STACK</div>
+                    <h2 class="section-title">Tools I use to turn concepts into <span class="gradient-text">solutions.</span></h2>
+                    <p class="section-text">
+                        My current stack covers frontend, backend, application development, and database technologies.
+                    </p>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="skills-grid">
+                        <div class="skill-item"><img src="assets/sgv logo/html-5.svg" alt="HTML logo"><div><strong>HTML</strong><span>Semantic structure</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/css.svg" alt="CSS logo"><div><strong>CSS</strong><span>Responsive UI</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/javascript.svg" alt="JavaScript logo"><div><strong>JavaScript</strong><span>Web interaction</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/php.svg" alt="PHP logo"><div><strong>PHP</strong><span>Backend systems</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/java.svg" alt="Java logo"><div><strong>Java</strong><span>Application development</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/dart.svg" alt="Dart logo"><div><strong>Dart</strong><span>App development</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/python.svg" alt="Python logo"><div><strong>Python</strong><span>Scripting & development</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/mysql-icon.svg" alt="MySQL logo"><div><strong>MySQL</strong><span>Database management</span></div></div>
+                        <div class="skill-item"><img src="assets/sgv logo/bootstrap.svg" alt="Bootstrap logo"><div><strong>Bootstrap</strong><span>UI framework</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section-padding services-section">
+        <div class="container">
+            <div class="text-center mx-auto section-heading">
+                <div class="section-label">WHAT I CAN BUILD</div>
+                <h2 class="section-title">Development services for <span class="gradient-text">real projects.</span></h2>
+            </div>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-window"></i></div>
+                        <h4>Websites</h4>
+                        <p>Modern responsive websites and landing pages for personal brands and businesses.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-grid-1x2"></i></div>
+                        <h4>Web Systems</h4>
+                        <p>CRUD systems, dashboards, inventory platforms, and data-driven websites.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-phone"></i></div>
+                        <h4>Applications</h4>
+                        <p>Application prototypes and functional projects for different use cases.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-database"></i></div>
+                        <h4>Database Solutions</h4>
+                        <p>Structured MySQL databases connected to practical applications and systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div>
+                    <div class="section-label">HAVE AN IDEA?</div>
+                    <h2>Let's turn your idea into a <span class="gradient-text">working project.</span></h2>
+                    <p>Tell me what you're planning and let's figure out the best way to build it.</p>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-lg px-4">Let's Talk <i class="bi bi-arrow-right ms-1"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="section-label">CONTACT</div>
+                    <h2 class="section-title">Let's build something <span class="gradient-text">useful.</span></h2>
+                    <p class="section-text">
+                        Interested in a website, web system, or application? Send me a message with your idea,
+                        requirements, and preferred timeline.
+                    </p>
+
+                    <div class="contact-links mt-4">
+                        <!-- Replace these with your actual links -->
+                        <a href="https://github.com/yushirodev3-prog" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                            <span><small>GitHub</small>YushiroDevs</span>
+                        </a>
+                        <a href="hhttps://www.facebook.com/yushin.capilo" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-facebook"></i>
+                            <span><small>Facebook</small>Yushin Capilo</span>
+                        </a>
+                        <a href="https://www.instagram.com/yush._dev" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i><span><small>Instagram</small>yush._dev</span></a>
+                        <a href="https://www.tiktok.com/@yushincapilo" target="_blank" rel="noopener noreferrer"><i class="bi bi-tiktok"></i><span><small>TikTok</small>@yushincapilo</span></a>
+                        <a href="mailto:yushirodev3@gmail.com">
+                            <i class="bi bi-envelope"></i>
+                            <span><small>Email</small>yushirodev3@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/maewdbzz" method="POST" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="What do you need?" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Project Details</label>
+                                <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg px-4">
+                                    Send Message <i class="bi bi-send ms-1"></i>
+                                </button>
+                                <div id="formMessage" class="form-message mt-3" aria-live="polite"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="modal fade project-lightbox" id="projectLightbox" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="lightboxTitle">Project Media</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><button class="lightbox-control lightbox-prev" id="lightboxPrev" type="button"><i class="bi bi-chevron-left"></i></button><div class="lightbox-stage" id="lightboxStage"></div><button class="lightbox-control lightbox-next" id="lightboxNext" type="button"><i class="bi bi-chevron-right"></i></button></div><div class="modal-footer justify-content-center"><span id="lightboxCounter"></span><small>Use ← / → keys to navigate • ESC to close</small></div></div></div></div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <a class="navbar-brand fw-bold" href="#home">
+                    <span class="brand-mark">&lt;/&gt;</span> Yushiro<span>Devs</span>
+                </a>
+                <p class="mb-0">© <span id="currentYear"></span> YushiroDevs. Built with code and curiosity.</p>
+                <a href="#home" class="back-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
