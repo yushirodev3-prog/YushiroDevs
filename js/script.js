@@ -27,6 +27,25 @@ document.addEventListener("DOMContentLoaded", () => {
     if (contactForm) {
         const submitButton = contactForm.querySelector('button[type="submit"]');
         const originalButtonText = submitButton ? submitButton.innerHTML : "";
+        const emailInput = contactForm.querySelector('#email');
+
+        // Email validation function - checks format and basic validity
+        const isValidEmail = (email) => {
+            // RFC 5322 simplified regex for email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email.trim());
+        };
+
+        // Add real-time email validation
+        if (emailInput) {
+            emailInput.addEventListener('blur', () => {
+                if (emailInput.value.trim() && !isValidEmail(emailInput.value)) {
+                    emailInput.classList.add('is-invalid');
+                } else if (emailInput.value.trim()) {
+                    emailInput.classList.remove('is-invalid');
+                }
+            });
+        }
 
         contactForm.addEventListener("submit", async (event) => {
             event.preventDefault();
@@ -37,6 +56,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     formMessage.textContent = "Please complete all required fields.";
                     formMessage.style.color = "#ff8f8f";
                 }
+                return;
+            }
+
+            // Additional email validation
+            const emailValue = emailInput.value.trim();
+            if (emailValue && !isValidEmail(emailValue)) {
+                if (formMessage) {
+                    formMessage.textContent = "Please enter a valid email address (e.g., you@example.com).";
+                    formMessage.style.color = "#ff8f8f";
+                }
+                emailInput.classList.add('is-invalid');
                 return;
             }
 

@@ -771,6 +771,16 @@ a {
     box-shadow: 0 0 0 0.2rem rgba(109, 93, 252, 0.12);
 }
 
+.form-control.is-invalid {
+    border-color: #ff8f8f;
+    background: #080d17;
+}
+
+.form-control.is-invalid:focus {
+    border-color: #ff8f8f;
+    box-shadow: 0 0 0 0.2rem rgba(255, 143, 143, 0.15);
+}
+
 .form-control::placeholder {
     color: #56647a;
 }
