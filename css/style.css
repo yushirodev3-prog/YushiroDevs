@@ -366,6 +366,8 @@ a {
     border-radius: 18px;
     overflow: hidden;
     transition: 0.25s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -377,6 +379,7 @@ a {
     position: relative;
     background: #080d17;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .media-open {
@@ -443,6 +446,9 @@ a {
 
 .project-content {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .project-tags {
@@ -464,7 +470,7 @@ a {
 
 .project-footer {
     border-top: 1px solid var(--line);
-    margin-top: 22px;
+    margin-top: auto;
     padding-top: 17px;
     display: flex;
     align-items: center;
@@ -607,6 +613,10 @@ a {
 .carousel-control-prev,
 .carousel-control-next {
     width: 12%;
+}
+
+.carousel-indicators {
+    padding-bottom: 12px;
 }
 
 .carousel-indicators [data-bs-target] {
